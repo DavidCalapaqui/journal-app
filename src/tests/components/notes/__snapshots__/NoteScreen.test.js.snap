@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en NoteScreen Debe de mostrarse correctamente 1`] = `
+<div
+  className="notes__main-content animate__animated animate__bounceIn"
+>
+  <div
+    className="notes__appbar"
+  >
+    <span>
+      28 de enero 2022
+    </span>
+    <input
+      id="fileSelector"
+      name="file"
+      onChange={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      type="file"
+    />
+    <div>
+      <button
+        className="btn"
+        onClick={[Function]}
+      >
+        Picture
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+      >
+        Save
+      </button>
+    </div>
+  </div>
+  <div
+    className="notes__content"
+  >
+    <input
+      autoComplete="off"
+      className="notes__title-input"
+      name="title"
+      onChange={[Function]}
+      placeholder="Some awesome title"
+      type="text"
+      value="Note title!!!"
+    />
+    <textarea
+      className="notes__textarea"
+      name="body"
+      onChange={[Function]}
+      placeholder="What happened today"
+      value="This is anther note!!!"
+    />
+    <div
+      className="notes__image"
+    >
+      <img
+        alt="imagen cheems"
+        src="https://res.cloudinary.com/api-node-cloud/image/upload/v1644363562/journal-photos/r4rn9t0sczxtzhrbewfl.png"
+      />
+    </div>
+  </div>
+  <button
+    className="btn btn-danger"
+    onClick={[Function]}
+  >
+    Eliminar
+  </button>
+</div>
+`;
